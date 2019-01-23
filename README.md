@@ -1,50 +1,50 @@
-Easy!Appointments
+Criagenda
 ================
 
 <img src="https://www.criartsoft.com.br/assets/img/git-banner-criagenda.png">
 
-### Organize your business! Exploit human resources that can be used in other tasks more efficiently.
+### Organize seu negócio! Explorar recursos humanos que podem ser usados em outras tarefas com mais eficiência.
 
-**Easy!Appointments** is a highly customizable web application that allows your customers to book
-appointments with you via the web. Moreover, it provides the ability to sync your data with
-Google Calendar so you can use them with other services. It is an open source project and you
-can download and install it **even for commercial use**. Easy!Appointments will run smoothly with
-your existing website, because it can be installed in a single folder of the server and of course,
-both sites can share the same database.
+**Criagenda** é um aplicativo da web altamente personalizável que permite que seus clientes reservem
+compromissos com você pela web. Além disso, fornece a capacidade de sincronizar seus dados com
+Google Agenda, para que você possa usá-los com outros serviços. É um projeto de código aberto e você
+pode baixar e instalar **mesmo para uso comercial**. Criagenda irá funcionar sem problemas com
+seu site existente, porque ele pode ser instalado em uma única pasta do servidor e, claro,
+Ambos os sites podem compartilhar o mesmo banco de dados.
 
-### Features
+### Características
 
-The project was designed to be flexible and reliable so as to be able to meet the needs of any
-kind of enterprise. You can read the main features of the system below:
+O projeto foi projetado para ser flexível e confiável, de modo a atender às necessidades de qualquer
+tipo de empresa. Você pode ler os principais recursos do sistema abaixo:
 
-* Full customers and appointments management.
-* Services and service providers organization.
-* Workflow and booking rules.
-* Google Calendar synchronization.
-* Email notifications system.
-* Standalone installation (like WordPress, Drupal, Joomla and other web systems).
-* Translated user interface.
-* User community support.
+* Cadastro de Clientes e gerenciamento de compromissos.
+* Serviços e Organização de provedores de serviços.
+* Regras de fluxo de trabalho e de reserva.
+* Sincronização do Google Agenda.
+* Sistema de notificações por email.
+* Instalação autônoma (como WordPress, Drupal, Joomla e outros sistemas web).
+* Interface de usuário traduzida.
+* Suporte da comunidade de usuários.
 
-### Installation
+### Instalação
 
-Since Easy!Appointments is a web application, it runs on a web server and thus you will need to
-perform the following steps in order to install the system on your server:
+Como o Criagenda é um aplicativo da Web, ele é executado em um servidor da Web e, portanto, você precisará
+execute os seguintes passos para instalar o sistema no seu servidor:
 
-* Make sure that your server has Apache/Nginx, PHP and MySQL installed.
-* Create a new database (or use an existing).
-* Copy the "easyappointments" source folder on your server.
-* Make sure that the "storage" directory is writable.
-* Rename the "config-sample.php" file to "config.php" and set your server properties.
-* Open your browser on the Easy!Appointments URL and follow the installation guide.
-* That's it! You can now use Easy!Appointments at your will.
+* Certifique-se de que seu servidor tenha Apache / Nginx, PHP e MySQL instalados.
+* Crie um novo banco de dados (ou use um existente).
+* Copie a pasta de origem "criagenda" no seu servidor.
+* Certifique-se de que o diretório "storage" seja gravável.
+* Renomeie o arquivo "config-sample.php" para "config.php" e defina suas propriedades de servidor.
+* Abra seu navegador no URL nomedoseudominico\criagenda e siga o guia de instalação.
+* É isso aí! Agora você pode usar o Criagenda à sua vontade.
 
-You will find the latest release at [easyappointments.org](http://easyappointments.org).
-If you have problems installing or configuring the application take a look on the
-[wiki pages](https://github.com/alextselegidis/easyappointments/wiki) or visit the
+Você encontrará o último lançamento em (https://www.criagenda.com.br).
+Se você tiver problemas ao instalar ou configurar o aplicativo, dê uma olhada no
+[wiki pages](https://github.com/alextselegidis/easyappointments/wiki) ou visite o
 [official support group](https://groups.google.com/forum/#!forum/easy-appointments).
-You can also report problems on the [issues page](https://github.com/alextselegidis/easyappointments/issues)
-and help the development progress.
+Você também pode relatar problemas na [página de problemas](https://github.com/criartsoft-brasil/criagenda)
+e ajudar o progresso do desenvolvimento.
 
 ### Docker
 To start Easy!Appointments using Docker in development configuration, with source files mounted into container, run:
@@ -63,14 +63,14 @@ To find where exactly they are stored, you can run
 docker volume inspect easyappointments_easy-appointments-storage
 ```
 
-Production containers will automatically be restarted in case of crash / server reboot. For more info, take a look into `docker-compose.prod.yml` file.
+Os contêineres de produção serão reiniciados automaticamente em caso de reinicialização de falha / servidor. Para mais informações, dê uma olhada no arquivo `docker-compose.prod.yml`.
 
-### User Feedback
+### Feedback do usuário
 
-Whether it is new ideas or defects, your feedback is highly appreciated and will be taken into
-consideration for the following releases of the project. Share your experience and discuss your
-thoughts with other users through communities. Create issues with suggestions on new features or
-bug reports.
+Quer se trate de novas idéias ou defeitos, o seu feedback é muito apreciado e será levado em consideração
+consideração para as seguintes versões do projeto. Compartilhe sua experiência e discuta sua
+pensamentos com outros usuários através de comunidades. Crie problemas com sugestões sobre novos recursos ou
+relatório de erros.
 
 ### Translate Easy!Appointments
 
