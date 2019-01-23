@@ -1,7 +1,7 @@
 Easy!Appointments
 ================
 
-<img src="http://easyappointments.org/img/easyappointments-banner.png">
+<img src="https://www.criartsoft.com.br\assets\img\git-banner-criagenda.png">
 
 ### Organize your business! Exploit human resources that can be used in other tasks more efficiently.
 
