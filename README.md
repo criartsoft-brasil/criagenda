@@ -76,7 +76,7 @@ A partir da versão 1.0, o Criagenda suporta a interface do usuário traduzida. 
 processo de tradução leia o [envolver-se](https://github.com/alextselegidis/easyappointments/wiki/Get-Involved!)
 página para informações adicionais.
 
-### Lembrando-se
+### Lembrando
 Este projeto é um forked https://github.com/alextselegidis/easyappointments.
 
 
