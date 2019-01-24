@@ -47,20 +47,19 @@ Você também pode relatar problemas na [página de problemas](https://github.co
 e ajudar o progresso do desenvolvimento.
 
 ### Docker
-To start Easy!Appointments using Docker in development configuration, with source files mounted into container, run:
+Para iniciar o Criagenda usando o Docker na configuração de desenvolvimento, com os arquivos de origem montados no contêiner, execute:
 ```
 docker-compose up
 ```
 
-Production deployment can be made by changing required values in .env file (DB_PASSWORD, APP_URL, APP_PORT) and running:
+A implementação de produção pode ser feita alterando os valores necessários no arquivo .env (DB_PASSWORD, APP_URL, APP_PORT) e executando:
 ```
 docker-compose -f docker-compose.prod.yml up -d
 ```
 
-Database data will be stored in named volume `easyappointments_easy-appointments-data`, and app storage (logs, cache, uploads) in `easyappointments_easy-appointments-storage`.
-To find where exactly they are stored, you can run 
+Os dados do banco de dados serão armazenados no volume nomeado `criagenda-data` e no armazenamento de aplicativos (logs, cache, uploads) em` criagenda-storage`.
 ```
-docker volume inspect easyappointments_easy-appointments-storage
+docker volume inspect criagenda-storage
 ```
 
 Os contêineres de produção serão reiniciados automaticamente em caso de reinicialização de falha / servidor. Para mais informações, dê uma olhada no arquivo `docker-compose.prod.yml`.
@@ -72,8 +71,14 @@ consideração para as seguintes versões do projeto. Compartilhe sua experiênc
 pensamentos com outros usuários através de comunidades. Crie problemas com sugestões sobre novos recursos ou
 relatório de erros.
 
-### Translate Easy!Appointments
+### Traduzir o Criagenda
+A partir da versão 1.0, o Criagenda suporta a interface do usuário traduzida. Se você quiser contribuir para o
+processo de tradução leia o [envolver-se](https://github.com/alextselegidis/easyappointments/wiki/Get-Involved!)
+página para informações adicionais.
 
-As of version 1.0 Easy!Appointments supports translated user interface. If you want to contribute to the
-translation process read the [get involved](https://github.com/alextselegidis/easyappointments/wiki/Get-Involved!)
-page for additional information.
+### Lembrando-se
+Este projeto é um forked https://github.com/alextselegidis/easyappointments.
+
+
+
+
